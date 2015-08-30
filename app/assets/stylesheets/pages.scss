@@ -1,0 +1,63 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #FF5050;
+	color: #eeeeee;
+}
+
+.header	 ul {
+	margin-top: 15px;
+}
+
+.header a {
+	color: #eeeeee;
+	font-size: 16px;
+}
+
+.nav li > a:hover {
+	background-color: #ffffff;
+	color: #1e1e1e;
+}
+
+.jumbotron {
+	background: url("https://picjumbo.imgix.net/HNCK5688.jpg?q=40&w=1650&sharp=30")no-repeat center center;
+	background-size: cover;
+	height: 600px;
+}
+
+.banner .jumbotron h1, .jumbotron p {
+	color: #eeeeee;
+	padding-left: 50px;
+	position: relative;
+}
+
+.jumbotron .btn {
+	color: #EFEFEF;
+	background-color: rgba(255, 80, 80, .8);
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 18px;
+	padding: 8px 40px;
+}
+
+.jumbotron .btn:hover{
+	background-color: rgba(255, 80, 80, 2);
+	box-shadow: 0 0 15px 0 #0f0b0b;
+	color: #ffffff;
+}
+
+.footer {
+	background-color: #1e1e1e;
+	margin-top: -30px;
+}
+
+.footer p {
+	padding-top: 15px;
+	color: white;
+}
