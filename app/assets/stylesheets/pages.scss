@@ -9,10 +9,16 @@ html, body {
 .header {
 	background-color: #FF5050;
 	color: #eeeeee;
+	height: 75px;
 }
 
 .header h1 {
-	padding-bottom: 5px;
+	padding: 0;
+}
+
+.header p {
+	margin: -15px;
+	margin-left: -10px;
 }
 
 .header	 ul {
