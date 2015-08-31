@@ -1,0 +1,26 @@
+.header {
+	background-color: #FF5050;
+	color: #eeeeee;
+}
+
+.header	 ul {
+	margin-top: 15px;
+}
+
+.header a {
+	color: #eeeeee;
+	font-size: 16px;
+}
+
+.nav > li.active > a {
+	background: #ffffff;
+}
+
+.nav-pills > li.active > a:hover {
+	background: #ffffff;
+}
+
+.nav li > a:hover {
+	background-color: #ffffff;
+	color: #1e1e1e;
+}

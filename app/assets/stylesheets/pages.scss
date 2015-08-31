@@ -11,6 +11,10 @@ html, body {
 	color: #eeeeee;
 }
 
+.header h1 {
+	padding-bottom: 5px;
+}
+
 .header	 ul {
 	margin-top: 15px;
 }
@@ -23,6 +27,10 @@ html, body {
 .nav li > a:hover {
 	background-color: #ffffff;
 	color: #1e1e1e;
+}
+
+.nav-pills > li.active > a {
+	background: #ffffff;
 }
 
 .jumbotron {
