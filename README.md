@@ -1,2 +1,2 @@
 # sousChef
-another cooking app
+another cooking app for the future
